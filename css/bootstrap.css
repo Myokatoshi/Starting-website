@@ -9,11 +9,11 @@
 html {
     font-family: sans-serif;
     -webkit-text-size-adjust: 100%;
-    -ms-text-size-adjust: 100%
+    -ms-text-size-adjust: 100%;
 }
 
 body {
-    margin: 0
+    margin: 0;
 }
 
 article,
@@ -29,7 +29,7 @@ menu,
 nav,
 section,
 summary {
-    display: block
+    display: block;
 }
 
 audio,
@@ -37,21 +37,21 @@ canvas,
 progress,
 video {
     display: inline-block;
-    vertical-align: baseline
+    vertical-align: baseline;
 }
 
 audio:not([controls]) {
     display: none;
-    height: 0
+    height: 0;
 }
 
 [hidden],
 template {
-    display: none
+    display: none;
 }
 
 a {
-    background-color: transparent
+    background-color: transparent;
 }
 
 a:active,
@@ -3097,7 +3097,7 @@ input[type=search] {
 input[type=checkbox],
 input[type=radio] {
     margin: 4px 0 0;
-    margin-top: 1px\9;
+    margin-top: 1px;
     line-height: normal
 }
 
@@ -3245,7 +3245,7 @@ input[type=search] {
 .radio input[type=radio],
 .radio-inline input[type=radio] {
     position: absolute;
-    margin-top: 4px\9;
+    margin-top: 4px;
     margin-left: -20px
 }
 
@@ -4161,23 +4161,6 @@ fieldset[disabled] .btn-danger:hover {
     border-radius: 0
 }
 
-.btn-link,
-.btn-link.active,
-.btn-link:active,
-.btn-link[disabled],
-fieldset[disabled] .btn-link {
-    background-color: transparent;
-    -webkit-box-shadow: none;
-    box-shadow: none
-}
-
-.btn-link,
-.btn-link:active,
-.btn-link:focus,
-.btn-link:hover {
-    border-color: transparent
-}
-
 .btn-link:focus,
 .btn-link:hover {
     color: #23527c;
@@ -4271,7 +4254,7 @@ tbody.collapse.in {
     transition-duration: .35s;
     -webkit-transition-property: height, visibility;
     -o-transition-property: height, visibility;
-    transition-property: height, visibility
+    transition-property: height, visibility;
 }
 
 .caret {
@@ -4281,18 +4264,18 @@ tbody.collapse.in {
     margin-left: 2px;
     vertical-align: middle;
     border-top: 4px dashed;
-    border-top: 4px solid\9;
+    border-top: 4px solid;
     border-right: 4px solid transparent;
-    border-left: 4px solid transparent
+    border-left: 4px solid transparent;
 }
 
 .dropdown,
 .dropup {
-    position: relative
+    position: relative;
 }
 
 .dropdown-toggle:focus {
-    outline: 0
+    outline: 0;
 }
 
 .dropdown-menu {
@@ -4315,19 +4298,19 @@ tbody.collapse.in {
     border: 1px solid rgba(0, 0, 0, .15);
     border-radius: 4px;
     -webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
-    box-shadow: 0 6px 12px rgba(0, 0, 0, .175)
+    box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
 }
 
 .dropdown-menu.pull-right {
     right: 0;
-    left: auto
+    left: auto;
 }
 
 .dropdown-menu .divider {
     height: 1px;
     margin: 9px 0;
     overflow: hidden;
-    background-color: #e5e5e5
+    background-color: #e5e5e5;
 }
 
 .dropdown-menu>li>a {
@@ -4337,7 +4320,7 @@ tbody.collapse.in {
     font-weight: 400;
     line-height: 1.42857143;
     color: #333;
-    white-space: nowrap
+    white-space: nowrap;
 }
 
 .dropdown-menu>li>a:focus,
@@ -4368,7 +4351,6 @@ tbody.collapse.in {
     cursor: not-allowed;
     background-color: transparent;
     background-image: none;
-    filter: progid:DXImageTransform.Microsoft.gradient(enabled=false)
 }
 
 .open>.dropdown-menu {
@@ -4417,7 +4399,7 @@ tbody.collapse.in {
     content: "";
     border-top: 0;
     border-bottom: 4px dashed;
-    border-bottom: 4px solid\9
+    border-bottom: 4px solid;
 }
 
 .dropup .dropdown-menu,
@@ -5119,7 +5101,7 @@ textarea.input-group-sm>.input-group-btn>.btn {
     max-height: 340px
 }
 
-@media (max-device-width:480px) and (orientation:landscape) {
+@media (max-width:480px) and (orientation:landscape) {
     .navbar-fixed-bottom .navbar-collapse,
     .navbar-fixed-top .navbar-collapse {
         max-height: 200px
@@ -5741,8 +5723,6 @@ fieldset[disabled] .navbar-inverse .btn-link:hover {
     z-index: 2;
     color: #fff;
     cursor: default;
-    background-color: #337ab7;
-    border-color: #337ab7
 }
 
 .pagination>.disabled>a,
@@ -6398,18 +6378,6 @@ button.list-group-item {
     border-color: #337ab7
 }
 
-.list-group-item.active .list-group-item-heading,
-.list-group-item.active .list-group-item-heading>.small,
-.list-group-item.active .list-group-item-heading>small,
-.list-group-item.active:focus .list-group-item-heading,
-.list-group-item.active:focus .list-group-item-heading>.small,
-.list-group-item.active:focus .list-group-item-heading>small,
-.list-group-item.active:hover .list-group-item-heading,
-.list-group-item.active:hover .list-group-item-heading>.small,
-.list-group-item.active:hover .list-group-item-heading>small {
-    color: inherit
-}
-
 .list-group-item.active .list-group-item-text,
 .list-group-item.active:focus .list-group-item-text,
 .list-group-item.active:hover .list-group-item-text {
@@ -6475,13 +6443,10 @@ button.list-group-item-info:hover {
 
 a.list-group-item-info.active,
 a.list-group-item-info.active:focus,
-a.list-group-item-info.active:hover,
-button.list-group-item-info.active,
-button.list-group-item-info.active:focus,
-button.list-group-item-info.active:hover {
+a.list-group-item-info.active:hover {
     color: #fff;
     background-color: #31708f;
-    border-color: #31708f
+    border-color: #31708f;
 }
 
 .list-group-item-warning {
@@ -7811,14 +7776,6 @@ button.close {
 
 .invisible {
     visibility: hidden
-}
-
-.text-hide {
-    font: 0/0 a;
-    color: transparent;
-    text-shadow: none;
-    background-color: transparent;
-    border: 0
 }
 
 .hidden {
